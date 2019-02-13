@@ -68,9 +68,12 @@ public class NetClientPost {
 				};
 		
 		try {
-			String apiStr = urlArr[0][0]
-					+ urlArr[0][1]
-					+ urlArr[0][2]
+			int x1 = 0;
+			int x2 = 1;
+			
+			String apiStr = urlArr[1][0]
+					+ urlArr[1][1]
+					+ urlArr[1][2]
 					+ "req_device_toggle";
 
 			URL url = new URL(apiStr);
